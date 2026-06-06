@@ -869,9 +869,53 @@
   <!-- PROJECTS -->
   <section id="projects">
     <div class="container fade-up">
-      <div class="section-eyebrow">Open Source</div>
-      <div class="section-heading">Side Projects</div>
-      <p class="section-sub">Built to explore, learn, and demonstrate system design thinking beyond the day job.</p>
+      <div class="section-eyebrow">Projects</div>
+      <div class="section-heading">What I've Built</div>
+      <p class="section-sub">Real deployed products and side projects demonstrating system design thinking.</p>
+
+      <!-- LIVE PROJECTS -->
+      <div style="font-family:'JetBrains Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:2px; color:var(--green); margin-bottom:16px;">● Live &amp; Deployed</div>
+      <div class="projects-grid" style="margin-bottom:40px;">
+
+        <div class="project-card" style="border-color:rgba(104,211,145,0.2);">
+          <div class="project-header">
+            <h3>Roamvanta</h3>
+            <div class="project-links">
+              <a href="https://roamvanta-owmpbku5k-chat-bots-projects.vercel.app" target="_blank" style="color:var(--green); font-weight:700;">Live Demo ↗</a>
+            </div>
+          </div>
+          <p>Full-stack travel booking and trip planning platform — browse destinations, plan itineraries, and book trips. Built with a focus on seamless UX and real-time availability.</p>
+          <div class="project-tags">
+            <span class="ptag">React</span>
+            <span class="ptag">Node.js</span>
+            <span class="ptag">REST API</span>
+            <span class="ptag">Vercel</span>
+          </div>
+          <div class="project-highlight"><span>Status:</span> Production — live on Vercel</div>
+        </div>
+
+        <div class="project-card" style="border-color:rgba(104,211,145,0.2);">
+          <div class="project-header">
+            <h3>InvenOrder</h3>
+            <div class="project-links">
+              <a href="https://invenorder-frontend-m6vga2yfl-chat-bots-projects.vercel.app" target="_blank" style="color:var(--green); font-weight:700;">Live Demo ↗</a>
+              <a href="https://github.com/ankitsingh060/inventory-order-system" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p>Full-stack inventory and order management system — automatic stock deduction on order, atomic restoration on cancellation, dashboard analytics, and Swagger-documented APIs.</p>
+          <div class="project-tags">
+            <span class="ptag">FastAPI</span>
+            <span class="ptag">React</span>
+            <span class="ptag">PostgreSQL</span>
+            <span class="ptag">Docker</span>
+          </div>
+          <div class="project-highlight"><span>Focus:</span> ACID transactions for inventory consistency under concurrent orders</div>
+        </div>
+
+      </div>
+
+      <!-- OTHER PROJECTS -->
+      <div style="font-family:'JetBrains Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:2px; color:var(--muted); margin-bottom:16px;">Open Source</div>
       <div class="projects-grid">
 
         <div class="project-card">
@@ -890,23 +934,6 @@
             <span class="ptag">pgx</span>
           </div>
           <div class="project-highlight"><span>Design choice:</span> No ORM — explicit SQL for query control and performance predictability</div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3>InvenOrder</h3>
-            <div class="project-links">
-              <a href="https://github.com/ankitsingh060/inventory-order-system" target="_blank">GitHub ↗</a>
-            </div>
-          </div>
-          <p>Full-stack inventory and order management system with transactional consistency — automatic inventory deduction on order, atomic restoration on cancellation, dashboard analytics, and Swagger-documented APIs.</p>
-          <div class="project-tags">
-            <span class="ptag">FastAPI</span>
-            <span class="ptag">React</span>
-            <span class="ptag">PostgreSQL</span>
-            <span class="ptag">Docker</span>
-          </div>
-          <div class="project-highlight"><span>Focus:</span> ACID transactions for inventory consistency under concurrent orders</div>
         </div>
 
         <div class="project-card">
